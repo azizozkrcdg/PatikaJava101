@@ -1,2 +1,2 @@
-# java101
+# BasisJava
 www.patika.dev
