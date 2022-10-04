@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class kitleİndeksi {
+public class kitleIndeksi {
     public static void main(String[] args) {
 
         // değişkenleri tanımla
