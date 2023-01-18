@@ -6,10 +6,12 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print("Sayı Sınırı : ");
         int number = input.nextInt();
+        
+        boolean fizzDiv = i % 3 == 0;
+        boolean buzzDiv = i % 5 == 0;
 
         for (int i = 1; i <= number; i++){
-            boolean fizzDiv = i % 3 == 0;
-            boolean buzzDiv = i % 5 == 0;
+            
 
            if(fizzDiv && buzzDiv) {
                System.out.println("Fizz-Buzz");
